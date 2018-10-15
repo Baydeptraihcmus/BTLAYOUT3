@@ -6,12 +6,33 @@ block variables
 	- var bodyclass = 'home'
 
 block body
-	section.home
+	.container-fluid.pl-0.pr-0
+		.row
+			.col
+				.img-fluid
+					img(src="./img/baner.png", alt="", srcset="")
+	.content
 		.container
 			.row
-				.col.p-4
-					.jumbotron.text-center
-						h1.hidden-md-up.display-4 Awesome Bootstrap Sites!
-						h2.hidden-md-up Dễ dàng triển khai và sử dụng
-						p.lead Bộ công cụ phát triển web vô cùng mạnh mẽ dựa trên nền tảng Bootstrap.
+				.col
+					.heading
+						h1 FullStack Chuyên Nghiệp
+
+			.row
+				.col-sm-4
+					.lock
+						.lockmedia
+							img(src="./img/content1.png", alt="", srcset="")
+				.col-sm-4
+					.lock
+						.lockmedia
+							figure
+								img(src="./img/content2.png", alt="", srcset="")
+				.col-sm-4
+					.lock
+						.lockmedia
+							figure
+								img(src="./img/content3.png", alt="", srcset="")
+
+
 
