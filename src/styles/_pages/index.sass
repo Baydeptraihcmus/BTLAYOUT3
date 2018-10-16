@@ -39,10 +39,59 @@ body
 			h1
 				padding-top: 3rem
 				margin-bottom: 3rem
+				&:after
+					content: ""
+					display: block
+					background: #ffffff
+					border: 1px solid #841f93
+					width: 5rem
+					position: absolute
+					left: 43%
+					bottom: 2rem
+					transform: translateX(50%)
 		.lock
 			.lockmedia
 				padding-right: 1rem
+				width: 356px
+				height: 216px
 				img
 					border-radius: 3%
-					width: 356px
-					height: 216px
+			&:hover
+				position: absolute
+				.lockmedia
+					position: relative
+					figure
+						opacity: 2
+					&:after
+						content: ""
+						display: block
+						height: 2rem
+						border: 3px solid #ffffff
+						width: 2rem
+						position: absolute
+						left: 47%
+						bottom: 7rem
+						transform: translateX(-50%)
+						transform: translatey(-50%)
+						border-radius: 45% 0% 45% 0%
+						transform: rotate(45deg)
+					&:before
+						position: absolute
+						content: ""
+						display: block
+						height: 20px
+						background: #ffffff
+						width: 20px
+						position: absolute
+						left: 51%
+						bottom: 7.5rem
+						transform: translatey(-50%)
+						transform: translatex(-50%)
+						border-radius: 50%
+			.div.lockcontent
+				margin-top: 1rem
+				p
+					margin-bottom: -1rem
+			&:hover
+				b
+					color: #841f93
