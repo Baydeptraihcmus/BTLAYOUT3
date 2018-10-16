@@ -6414,5 +6414,37 @@ body {
         margin-bottom: -1rem; }
     body .content .lock:hover b {
       color: #841f93; }
+  body .content .icon .owl-carousel.oul-theme {
+    margin-top: 3rem;
+    position: relative; }
+    body .content .icon .owl-carousel.oul-theme .owl-nav .owl-prev {
+      width: 5rem;
+      height: 5rem;
+      background: lightblue;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 17rem;
+      left: 0rem;
+      font-size: 3rem; }
+    body .content .icon .owl-carousel.oul-theme .owl-nav .owl-next {
+      width: 5rem;
+      height: 5rem;
+      background: lightblue;
+      border-radius: 50%;
+      position: absolute;
+      font-size: 3rem; }
+
+.footer {
+  background: #00c4c9;
+  height: 20rem; }
+  .footer .text {
+    margin-top: 2rem; }
+    .footer .text h1 {
+      color: #083e64;
+      padding-right: 1rem;
+      font-size: 20px; }
+    .footer .text p {
+      color: #ffffff;
+      font-size: 15px; }
 
 /*# sourceMappingURL=main.css.map */
